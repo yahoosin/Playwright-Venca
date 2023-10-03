@@ -35,13 +35,13 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     // Setup project
-    //{ name: 'setup', testMatch: 'auth.setup.js', testDir: './' },
+    { name: 'setup', testMatch: 'auth.setup.js', testDir: './' },
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],   
       viewport: {width:1366,height:619}, 
-      //storageState: '.auth/user.json',},
-      //dependencies: ['setup'],
+      storageState: '.auth/user.json',
+      dependencies: ['setup'],
     },
   },
 
