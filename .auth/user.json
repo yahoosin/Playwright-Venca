@@ -1,0 +1,287 @@
+{
+  "cookies": [
+    {
+      "name": "visid_incap_853174",
+      "value": "PGHf/GkoSVaiWUeoFEmgS9IsG2UAAAAAQUIPAAAAAABdFQ6frkGORLeO2MBveCpx",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1727738044,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "incap_ses_267_853174",
+      "value": "uDHgBIOOuSiphuhbUJO0A9IsG2UAAAAAefmZFMeUAMpdNPwQZ+z7kw==",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "oct8ne-active-tab-id",
+      "value": "1696279763736",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "oct8ne-first-enter",
+      "value": "true",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "value": "2023-10-02T20:49:25.105Z",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1727815765,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.551146889.1696279765",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1704055765,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.94005224.1696279764",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1730839765.183031,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1193784536.1696279765",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1696366165,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-3839278-16",
+      "value": "1",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1696279825,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ClientName",
+      "value": "Test",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1701553767.078492,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "session_id",
+      "value": "3041205C345A43244E244C22002E4528446C4A4928",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1698961767.53706,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cart_id",
+      "value": "3041205C345A43244E244C22002E4528446C4A4928",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1701553767.078655,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_DCZEDND7RF",
+      "value": "GS1.1.1696279764.1.0.1696279766.0.0.0",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1730839766.562541,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ASP.NET_SessionId",
+      "value": "lx45gscdivybqbzkndz4hehu",
+      "domain": "www.venca.es",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "last_login",
+      "value": "15701678107E7674167C19710614661176057C7279107812701E&3351586",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1698961767.078344,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "user_id",
+      "value": "1F71127014727274&9219142",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1730839767.078569,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ttp",
+      "value": "2WDv3naQjR6iS8JU3y98WZBukKC",
+      "domain": ".tiktok.com",
+      "path": "/",
+      "expires": 1729975768.010418,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUk3E2qga80JoiOejzL5zuV5xiTgrr7wPfO0Zx3k-4gievwhzc15jMxHJWBh",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1729975768.033971,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Mon+Oct+02+2023+22%3A49%3A28+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&isIABGlobal=false&hosts=&consentId=6f35165a-b880-4cfe-a47c-4945565183a8&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1&geolocation=ES%3BCT&AwaitingReconsent=false",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1727815768,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_p2s_uvi",
+      "value": "657ad21d.8923019793186726.1696279768513",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1727815768,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "m_ses",
+      "value": "20231002224928",
+      "domain": ".www.venca.es",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "m_cnt",
+      "value": "0",
+      "domain": ".www.venca.es",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__rtbh.lid",
+      "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22oTpOab80r6QfXsKQRmVX%22%7D",
+      "domain": "www.venca.es",
+      "path": "/",
+      "expires": 1727822968,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "frzbt.user.aid",
+      "value": "%2203ace1d5-5767-4ad4-9330-a2410a51a552%22",
+      "domain": ".venca.es",
+      "path": "/",
+      "expires": 1727815768,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.venca.es",
+      "localStorage": [
+        {
+          "name": "frzbt.user.metadata",
+          "value": "{}"
+        },
+        {
+          "name": "cto_bundle",
+          "value": "dcnPEF9ER2E1NlJGYTlFVkhsUlB1M1Ewb3pnbzRqSEwlMkJZYUFLY3RhV2doOERBVVglMkJwM1IwMzBYdDE0bWc1eUhvNGVZT3B6THNQV2xMMVN2eVlQd0w0dnJqVUFTWUlLdFhTTUc0SGVoWWFSbHAwV2FubHNldTBGRXhFZWo1MFhiSGs5Z1pvejlGZ2NWSXZqU1lMMWRLQzh0JTJCb1ElM0QlM0Q"
+        },
+        {
+          "name": "__rtbh.lid",
+          "value": "{\"eventType\":\"lid\",\"id\":\"oTpOab80r6QfXsKQRmVX\"}"
+        },
+        {
+          "name": "oct8ne-url-//www.venca.es/",
+          "value": "[\"https://www.venca.es/login\"]"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Tue, 03 Oct 2023 20:49:28 GMT"
+        },
+        {
+          "name": "debug",
+          "value": "undefined"
+        },
+        {
+          "name": "_uetvid",
+          "value": "2e10a450616511ee9d81275b1ab3947c"
+        },
+        {
+          "name": "_uetvid_exp",
+          "value": "Sat, 26 Oct 2024 20:49:28 GMT"
+        },
+        {
+          "name": "_uetsid",
+          "value": "2e0e9ac0616511ee8c54ed147842efec"
+        }
+      ]
+    }
+  ]
+}
