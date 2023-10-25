@@ -7,7 +7,7 @@ import { Select } from '../pages/select';
 import { ItemFeatures } from '../pages/itemFeatures';
 import { CheckingCart } from '../pages/checkingCart';
 
-test('User must be logged in successfully', async ({ page }) => {
+test.beforeEach( async ({ page }) => {
   const loginPage = new LoginPage(page);
   await loginPage.goToURL(URLS.VENCAURL);
   const cookies = new Cookies(page);
@@ -16,14 +16,10 @@ test('User must be logged in successfully', async ({ page }) => {
   await loginPage.checkLoginSuccessfully();
 });
 
-test('User must be selected a clothing item', async ({ page }) => { 
-  const loginPage = new LoginPage(page);
-  await loginPage.goToURL(URLS.VENCAURL);
-  const cookies = new Cookies(page);
-  await cookies.acceptCookies();
-  await loginPage.submitLoginForm(CREDENTIALS.VENCAUSER, CREDENTIALS.VENCAPASS);
-  await loginPage.checkLoginSuccessfully();
-  
+test('User must be logged in successfully', async ({ page }) => {  
+});
+
+test('User must be selected a clothing item', async ({ page }) => {    
   const selectCollection = new SelectCollection(page);
   await selectCollection.selectItemFromMujerMenu();  
 

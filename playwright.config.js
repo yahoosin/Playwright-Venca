@@ -11,7 +11,7 @@ const { defineConfig, devices } = require('@playwright/test');
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  globalSetup: './auth.setup.js',
+  //globalSetup: './auth.setup.js',
   testDir: './pageObjects',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -29,7 +29,7 @@ module.exports = defineConfig({
   //reporter: [['json', { outputFile: 'results.json' }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    //headless: false,
+    headless: false,
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
@@ -40,13 +40,13 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     // Setup project
-    { name: 'setup', testMatch: '.auth.setup.js', testDir: './' },
+    //{ name: 'setup', testMatch: '.auth.setup.js', testDir: './' },
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],   
       viewport: {width:1366,height:619}, 
-      storageState: '.auth/user.json',
-      dependencies: ['setup'],
+      //storageState: '.auth/user.json',
+      //dependencies: ['setup'],
     },
   },
 

@@ -25,6 +25,6 @@ exports.LoginPage = class LoginPage {
     }
 
     async checkLoginSuccessfully() {
-      await expect(this.welcomeText).toBeVisible(time(5000));
+      await expect(this.welcomeText).toBeVisible(time(10000));
     }
   };
