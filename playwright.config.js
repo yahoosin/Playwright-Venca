@@ -11,6 +11,7 @@ const { defineConfig, devices } = require('@playwright/test');
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
+  globalSetup: './auth.setup.js',
   testDir: './pageObjects',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -22,6 +23,10 @@ module.exports = defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
+  //reporter: [['list', { printSteps: true }]],
+  //reporter: 'line',
+  //reporter: [['html', { outputFolder: 'my-report' }]],
+  //reporter: [['json', { outputFile: 'results.json' }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     //headless: false,
@@ -35,7 +40,7 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     // Setup project
-    { name: 'setup', testMatch: 'auth.setup.js', testDir: './' },
+    { name: 'setup', testMatch: '.auth.setup.js', testDir: './' },
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],   
