@@ -7,7 +7,7 @@ exports.CheckingCart = class CheckingCart {
      */
     constructor(page) {
         this.page = page;
-        this.deleteItemFromCart = this.page.locator('[data-uitest="delete"]')
+        this.removeItem = this.page.locator('[data-uitest="delete"]')
     }
 
     get $referenceInCart () {
@@ -30,7 +30,7 @@ exports.CheckingCart = class CheckingCart {
         return this.page.locator('[class="list-unstyled"] [class="thin"]').nth(1); 
     }
     
-    async checkingCart () {
-        await this.deleteItemFromCart.click();     
+    async carRemoveItem() {
+        await this.removeItem.click();     
     }
 };

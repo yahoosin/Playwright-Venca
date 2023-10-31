@@ -7,9 +7,7 @@ exports.ItemFeatures = class ItemFeatures {
      */
     constructor(page) {
       this.page = page;
-      this.cart = page.locator('[id="cartZone"]');
-      //this.sizeButtonSelector = page.locator('[data-uitest="productSizeSelector"]');
-      //this.sizeL = page.locator('[data-id-for-select][data-id-for-select="L"]');      
+      this.cart = page.locator('[id="cartZone"]');    
       this.buttonAddToCart = page.locator('[data-uitest="productAddToCart"]'); 
       this.cartReviewText = page.locator('[id="productDetails"] h2');       
     }
@@ -31,13 +29,10 @@ exports.ItemFeatures = class ItemFeatures {
     }
 
     get $size () {
-      //return this.page.locator('[data-id-for-select] [data-id-for-select="L"]');
       return this.page.locator('[id="selectedSize"]');
     }
 
     async itemFeatures () {
-        //await this.sizeButtonSelector.click();
-        //await this.sizeL.click();
         await this.buttonAddToCart.click();
         await this.cart.click();
         await expect(this.cartReviewText).toContainText('Revisa tu pedido');      

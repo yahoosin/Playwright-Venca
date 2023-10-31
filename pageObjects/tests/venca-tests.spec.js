@@ -16,8 +16,8 @@ test.beforeEach( async ({ page }) => {
   await loginPage.checkLoginSuccessfully();
 });
 
-test('User must be logged in successfully', async ({ page }) => {  
-});
+//test('User must be logged in successfully', async ({ page }) => {  
+//});
 
 test('User must be selected a clothing item', async ({ page }) => {    
   const selectCollection = new SelectCollection(page);
@@ -79,6 +79,6 @@ test('User must be selected a clothing item', async ({ page }) => {
   await expect(parseInt(numberItemsInCartBeforeAdding.trim()) + 1).toEqual(numberItemsInCart);
   await expect(size.trim()).toEqual(sizeInCart.trim());
 
-  await checkingCart.checkingCart(); 
+  await checkingCart.carRemoveItem(); 
   await page.close();
 });
